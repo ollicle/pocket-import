@@ -16,7 +16,7 @@ if (!filename) {
 }
 
 const consumer_key = args.consumer_key;
-if (!filename) {
+if (!consumer_key) {
 	console.error('you must provide a consumer key');
 	process.exit(1);
 }
